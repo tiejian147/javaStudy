@@ -26,6 +26,8 @@ public class OperatorTest03{
 		System.out.println(5 > 4 & 5 > 9); // false
 		System.out.println(5 > 4 | 5 > 9); // true
 
+		
+
 		// //声明两个变量，然后用逻辑与打印比较结果
 		// int x = 10;
 		// int y = 8;

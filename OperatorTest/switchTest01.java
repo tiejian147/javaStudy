@@ -1,3 +1,5 @@
+
+
 /*
     关于switch语句
         1、switch语句也属于选择结构，也是分支语句；
@@ -48,3 +50,43 @@
                 }
 
 */
+
+/*
+    需求：
+        用switch语句写出程序：
+        输入带小数点的分数，得出学生的成绩
+        [90,100]    A
+        [80,90)     B
+        [70,80)     C
+        [60,70)     D
+        [0,60)      E
+        
+        
+*/
+public class switchTest01 {
+    public static void main(String[] args) {
+
+        // 扫描键盘输入
+        java.util.Scanner s = new java.util.Scanner(System.in);
+
+        double score;
+        // 等待用户输入分数值
+        System.out.println("请输入该学生的分数：");
+        score = s.nextDouble();
+
+        // 将分数做除10处理；
+        score = score /= 10;
+
+        switch ((int) score) {
+        case 10:
+        case 9:
+            System.out.println("该学生的成绩为A");
+            break;
+        default:
+            System.out.println("查不到学生等级");
+        }
+        
+
+    }
+
+}
