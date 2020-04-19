@@ -62,6 +62,21 @@ public class ForTest01{
         }
         System.out.println("i====>" + i);
 
+        System.out.println("------------------");
+        //输出1-10中所有的奇数
+        int num1;
+        for(num1 = 1; num1 <= 10; num1 += 2){
+            System.out.println(num1);//打印：1，3，5，7，9
+        }
+
+        System.out.println("分割线-------------");
+        //输出1-10中所有的偶数
+        int num2;
+        for(num2 =2; num2 <= 10; num2 +=2){
+            System.out.println(num2);//打印：2，4，6，8，10
+        }
+        System.out.println("-----------------------");
+        System.out.println(num2);
     }
 }
 
