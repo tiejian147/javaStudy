@@ -21,26 +21,12 @@ public class OperatorTest03{
 		
 		System.out.println("test");
 
-		System.out.println("这里做的是数值的比较：");
-		System.out.println(5 > 3 & 5 > 2);//true
-		System.out.println(5 > 3 & 5 > 6);//false
-		System.out.println(5 > 3 | 5 > 6);//true
+		System.out.println("这里进行数值的比较：");
+		System.out.println(5 > 3 & 5 > 4); //true
+		System.out.println(5 > 4 & 5 > 9); // false
+		System.out.println(5 > 4 | 5 > 9); // true
 
-		System.out.println("这里直接用布尔类型的值来做逻辑运算：");
-		System.out.println(true && true);//true
-		System.out.println(true && false);// false 
-
-		System.out.println("---------------");
-		System.out.println(true | false);//true
-		System.out.println(false | true);//true
 		
-		System.out.println("---------------");
-		System.out.println(!false);//true
-		System.out.println(!true);//false
-
-		System.out.println("---------------");
-		System.out.println(true ^ false); //true
-		System.out.println(true ^ true); //false
 
 		// //声明两个变量，然后用逻辑与打印比较结果
 		// int x = 10;
@@ -71,9 +57,6 @@ public class OperatorTest03{
 
 		System.out.println(x < y || ++x > y);
 		System.out.println("这里的x应该短路：" + x);
-
-		System.out.println("这个应该是true：");
-		System.out.println(5 == 5 & 5 != 4);
 
 		
 
