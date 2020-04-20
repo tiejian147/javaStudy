@@ -1,4 +1,4 @@
-/*
+/**
     实现计算器当中的：
         +
         -
@@ -14,9 +14,6 @@
             *第三个数字
         4、然后打印运算结果：
 */
-
-
-
 public class SwitchTest03 {
     public static void main(String[] args){
 
