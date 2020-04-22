@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForTest06ForPractice",
+            "request": "launch",
+            "mainClass": "ForTest06ForPractice",
+            "projectName": "JavaStudy_79ed51b2"
+        }
+    ]
+}
