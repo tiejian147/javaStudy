@@ -27,6 +27,8 @@ public class MethodTest02 {
 
     }
     //专门在这个类体当中定义一个方法，这个方法专门来完成求和
+    //x y z 在以下的sumInt方法中都属于局部变量，除了大括号就不认识了
+    //局部变量有一个特点，方法结束之后，局部变量占用的内存会自动释放。
     public static void sumInt(int x, int y) {//自上而下的依次执行代码
         int z;
         z = x + y;
