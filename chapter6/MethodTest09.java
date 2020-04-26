@@ -6,9 +6,21 @@ public class MethodTest09{
 
         //还可以写的更简洁一些：
         System.out.println(sum(1000, 2000));
-    }
 
-    public static boolean flag(){
+        //声明一个变量调用m();方法，并打印输出
+        boolean flag = m();
+        if(flag){
+            System.out.println(flag);
+        }
+        //精简上面的代码
+        if(m()){
+            System.out.println("真的。。。。");
+        }
+
+
+    }
+    //编写一个返回布尔类型的方法
+    public static boolean m(){
         return true;
     }
 

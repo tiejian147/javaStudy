@@ -29,23 +29,29 @@ public class MethodTestHomtwork02 {
         boolean flag = isSuShu(11);
         System.out.println(flag ? "是质数" :"不是质数");
         */
-        printZuiXiaoZhiShu(10);
-        printZuiXiaoZhiShu(15);
-        printZuiXiaoZhiShu(34);
+        printZuiXiaoZhiShu(102);
+        // printZuiXiaoZhiShu(15);
+        // printZuiXiaoZhiShu(34);
 
 
         
     }
     //再编写一个方法，输出最小质数；
     public static void printZuiXiaoZhiShu(int n){
-        while(true){
-            n++;
-            boolean flag = isSuShu(n);
-            if(flag){
-                System.out.println("大于当前数字最小的质数为：" +n);
-                break;
-            }
+        //这是新手写法：
+        // while(true){
+        //     n++;
+        //     boolean flag = isSuShu(n);
+        //     if(flag){
+        //         System.out.println("大于当前数字最小的质数为：" +n);
+        //         break;
+        //     }
+        // }
+        //精简后的写法：
+        while(!isSuShu(++n)){
+            
         }
+        System.out.println("大于当前数字最小的质数为：" +n);
         
     }
 
