@@ -40,5 +40,5 @@ public class Students{
     boolean sex;
     
     //住址
-    Address address;
+    Address addr;
 }

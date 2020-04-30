@@ -25,7 +25,7 @@ public class StudentsTest{
         System.out.println(s1.name);
         System.out.println(s1.age);
         System.out.println(s1.sex);
-        System.out.println(s1.address);
+        System.out.println(s1.addr);
 
 
         //创建学生对象2
@@ -38,24 +38,29 @@ public class StudentsTest{
         System.out.println(s2.name);
         System.out.println(s2.age);
         System.out.println(s2.sex);
-        System.out.println(s2.address);
+        System.out.println(s2.addr);
 
         System.out.println("------------------------------------");
 
+        //new一个address类的实例对象
+        Address a1 = new Address();
+
         //通过“=” 复制的方式将内存中实例变量的值修改一下。
+        a1.city = "北京市";
         s1.num = 110;
         s1.name = "张三";
         s1.age = 19;
         s1.sex = false;
-        s1.address = "北京东城区";
+        s1.addr = a1;
+        
 
-
+        
 
         System.out.println("学号是："  + s1.num);
         System.out.println("姓名是："  + s1.name);
         System.out.println("年龄是："  + s1.age);
         System.out.println("性别是："  + s1.sex);
-        System.out.println("地址是："  + s1.address);
+        System.out.println("地址是："  + s1.name + "的城市是：" + s1.addr.city);
 
 
 
