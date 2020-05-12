@@ -8,5 +8,5 @@ public class Husband{
     String brith;
 
     //定义示例变量 配偶
-    String Wife;
+    Wife wife;
 }
