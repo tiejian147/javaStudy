@@ -23,5 +23,10 @@ public class PersonTest{
 
         // int nianLing = p1.getAge();
         System.out.println(p1.getAge());
+
+        p1.setAge(-100);
+
+        p1.setAge(100);
+        System.out.println("重新赋值后的年龄为：" + p1.getAge());
     }
 }

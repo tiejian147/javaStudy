@@ -60,6 +60,12 @@ public class Person{
     }
     //set 方法
     public void  setAge(int nianLing){
+        //可以在此位置上进行逻辑判断
+        if(nianLing < 0 || nianLing > 150){
+            System.out.println("年龄非法");
+            return;
+        }
+        //程序能够执行到这里，说明年龄一定是合法的。
         age = nianLing;
     }
 
