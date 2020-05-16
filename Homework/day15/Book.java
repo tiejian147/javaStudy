@@ -23,7 +23,17 @@
  *      余额不足，取钱失败
  *      
  * 三、（封装）已知一个类： Student 代码如下：
+ *      class Student(
+ *          String name;
+ *          int age;
+ *          String address;
+ *          String zipCode;
+ *          String mobile;
+ *      )
  *      
+ *      要求：
+ *          1、把student 的属性都作为私有，并提供get/set方法以及适当的构造方法
+ *          2、为student 类添加一个getPostAddress方法，要求返回Student对象的地址和邮编
  * 
  */
 
