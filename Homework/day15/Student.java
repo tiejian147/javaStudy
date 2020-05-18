@@ -15,11 +15,7 @@
 
 
 public class Student {
-    private String name;
-    private int age;
-    private String address;
-    private String zipCode;
-    private String mobile;
+   
 
     //main方法入口
     public static void main(String[] args){
@@ -28,6 +24,12 @@ public class Student {
         s1.setZipCode("00001");
         s1.getPostAddress();
     }
+    //声明各种属性变量
+    private String name;
+    private int age;
+    private String address;
+    private String zipCode;
+    private String mobile;
 
     //构造无参数方法
     public Student(){

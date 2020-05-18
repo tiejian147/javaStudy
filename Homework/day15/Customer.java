@@ -16,10 +16,43 @@
  */
 
 public class Customer {
+    
+    public static void main(String[] arge){
+        Account a1 = new Account();
+        Customer user1 = new Customer();
+        user1.act = a1;
+    }
+
     //实例变量  客户名字
     private String name;
-    public static void main(String[] arge){
+    // 实例变量  账户
+    private Account act;
 
+    // 编写无参数的构造方法
+    public Customer(){
+        // this("Jane Smith", 1000);
+    }
+
+    //编写有参数的构造方法
+    public Customer(String name, Account act){
+        this.name = name;
+        this.act = act;
+    }
+    //编写setter 和 getter方法
+    public String  getName(){
+        return name;
+    }
+
+    public Account  getAct(){
+        return act;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setAct(Account act){
+        this.act = act;
     }
 
     
