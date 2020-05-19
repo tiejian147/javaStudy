@@ -35,3 +35,14 @@ class Y extends X{
 class Z extends Y{
 
 }
+
+/**
+ * Z继承了Y，
+ * Y继承了X，
+ * X继承了Object
+ * 
+ * Z对象具有Object对象的特征
+ * 
+ * Object是所有类的超类，老祖宗，类体系结构中的根
+ * java这么庞大的继承结构，最顶点是：Object
+ */
