@@ -1,7 +1,13 @@
 // 3）定义乐手类Musician，可以弹奏各种乐器play(Instrument i)
 public class Musician{
     public static void main(String[] args){
-
+        //给音乐家创建对象
+        Musician p1 = new Musician();
+        //给乐器创建对象
+        MusicalLnstruments m1 = new MusicalLnstruments();
+        //给二胡创建对象
+        Erhu e1 = new Erhu();
+        
     }
     //私有属性
     MusicalLnstruments erhu;
@@ -24,7 +30,7 @@ public class Musician{
         this.erhu = erhu;
     }
     //定义演奏乐器的方法
-    public void play(){
-        
+    public void play(MusicalLnstruments erhu){
+        System.out.println("他玩的是" + getErhu() );
     }
 }
